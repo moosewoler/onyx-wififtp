@@ -13,7 +13,7 @@ VsftpdServer::VsftpdServer()
     options_["anon_mkdir_write_enable"]="YES";
     options_["anon_other_write_enable"]="YES";
     options_["no_anon_password"]="YES";
-    options_["anon_root"]="/media/sd";
+    options_["anon_root"]="/media/flash";
     options_["anon_umask"]="0777";
 }
 
